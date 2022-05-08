@@ -224,7 +224,7 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 `梁甫行
 【魏晋】曹植
 八方各异气，千里殊风雨。
-剧哉边海民，寄身于草野。=
+剧哉边海民，寄身于草野。
 妻子象禽兽，行止依林阻。
 柴门何萧条，狐兔翔我宇。`,
 
@@ -250,10 +250,10 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 `关雎
 【先秦】\n侠名no-question
 关关雎鸠，\n在河之洲。\nno-newline窈窕淑女，\n君子好逑。
-参差荇菜，no-question\n左右流之。\nno-newline窈窕淑女，\n寤寐求之。
+参差荇菜，no-question\n左右流之。\nno-newline窈窕淑女，no-question\n寤寐求之。
 求之不得，\n寤寐思服。\nno-newline悠哉悠哉，\n辗转反侧。
-参差荇菜，no-question\n左右采之。\nno-newline窈窕淑女，\n琴瑟友之。
-参差荇菜，no-question\n左右芼之。\nno-newline窈窕淑女，\n钟鼓乐之。`,
+参差荇菜，no-question\n左右采之。\nno-newline窈窕淑女，no-question\n琴瑟友之。
+参差荇菜，no-question\n左右芼之。\nno-newline窈窕淑女，no-question\n钟鼓乐之。`,
 
 `蒹葭
 【先秦】\n侠名no-question
@@ -297,12 +297,12 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 半匹红纱一丈绫，\n系向牛头充炭直。`,
 
 `式微
-【先秦】\n侠名
+【先秦】侠名no-question
 式微，\n式微，\n胡不归？\nno-newline微君之故，\n胡为乎中露？
 式微，\n式微，\n胡不归？\nno-newline微君之躬，\n胡为乎泥中？`,
 
 `子衿
-【先秦】\n侠名
+【先秦】侠名no-question
 青青子衿，\n悠悠我心。\nno-newline纵我不往，no-question\n子宁不嗣音？
 青青子佩，\n悠悠我思。\nno-newline纵我不往，no-question\n子宁不来？
 挑兮达兮，\n在城阙兮。\nno-newline一日不见，\n如三月兮！`,
