@@ -29,6 +29,7 @@ function newQuestion() {
     else
       answer += `<br/>${elems[i]}`;
   }
+  showAnswer.value = false;
   question.value = { question: q.replace('no-newline', ''), answer: answer };
 }
 
