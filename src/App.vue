@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import data from './assets/data.json';
+import data from './assets/data';
 
 interface Question {
   question: string;
@@ -16,7 +16,7 @@ function newQuestion() {
   const r = data[Math.floor(Math.random() * data.length)];
   const elems = r.split('\n');
   const q = elems[Math.floor(Math.random() * elems.length)].trim();
-  if (q === '' || q.endsWith('no-question')) {
+  if (q === '' || q.endsWith('no-question') || q.endsWith('】')) {
     newQuestion();
     return;
   }
@@ -24,7 +24,7 @@ function newQuestion() {
   let answer = '';
   for (let i = 0;i < elems.length;i++) {
     elems[i] = elems[i].trim().replace('no-question', '');
-    if (elems[i].startsWith('no-newline'))
+    if (answer.endsWith('，') || answer.endsWith('】') || elems[i].startsWith('no-newline'))
       answer += elems[i].replace('no-newline', '');
     else
       answer += `<br/>${elems[i]}`;
