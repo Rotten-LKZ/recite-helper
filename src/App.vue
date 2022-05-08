@@ -31,6 +31,19 @@ function newQuestion() {
   }
   question.value = { question: q.replace('no-newline', ''), answer: answer };
 }
+
+function calculateQuestions() {
+  let questions = 0;
+  for (let i = 0;i < data.length;i++) {
+    const elems = data[i].split('\n');
+    for (let j = 0;j < elems.length;j++) {
+      if (!(elems[j].trim() === '' || elems[j].trim().endsWith('no-question') || elems[j].trim().endsWith('】'))) {
+        questions++;
+      }
+    }
+  }
+  return questions;
+}
 </script>
 
 <template>
@@ -40,11 +53,21 @@ function newQuestion() {
     <button @click="newQuestion">换一道题</button>
     <p v-if="showAnswer" v-html="question.answer"></p>
   </main>
+
+  <footer>
+    共 {{ calculateQuestions() }} 道题
+  </footer>
 </template>
 
 <style>
-main {
+main, footer {
   text-align: center;
+}
+
+footer {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 p, button {
