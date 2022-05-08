@@ -67,7 +67,7 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 念天地之悠悠，\n独怆然而涕下！`,
 
 `望岳
-【唐代】杜甫
+【唐】杜甫
 岱宗夫如何？\nno-newline齐鲁青未了。
 造化钟神秀，\n阴阳割昏晓。
 荡胸生曾云，\n决眦入归鸟。
@@ -250,10 +250,10 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 `关雎
 【先秦】\n侠名no-question
 关关雎鸠，\n在河之洲。\nno-newline窈窕淑女，\n君子好逑。
-参差荇菜，\n左右流之。\nno-newline窈窕淑女，\n寤寐求之。
+参差荇菜，no-question\n左右流之。\nno-newline窈窕淑女，\n寤寐求之。
 求之不得，\n寤寐思服。\nno-newline悠哉悠哉，\n辗转反侧。
-参差荇菜，\n左右采之。\nno-newline窈窕淑女，\n琴瑟友之。
-参差荇菜，\n左右芼之。\nno-newline窈窕淑女，\n钟鼓乐之。`,
+参差荇菜，no-question\n左右采之。\nno-newline窈窕淑女，\n琴瑟友之。
+参差荇菜，no-question\n左右芼之。\nno-newline窈窕淑女，\n钟鼓乐之。`,
 
 `蒹葭
 【先秦】\n侠名no-question
@@ -280,8 +280,7 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 【唐】\n杜甫
 八月秋高风怒号，\n卷我屋上三重茅。\nno-newline茅飞渡江洒江郊，\n高者挂罥长林梢，\n下者飘转沉塘坳。
 南村群童欺我老无力，\n忍能对面为盗贼。\nno-newline公然抱茅入竹去，\n唇焦口燥呼不得，\n归来倚杖自叹息。
-俄顷风定云墨色，\n秋天漠漠向昏黑。\nno-newline布衾多年冷似铁，\n娇儿恶卧踏里裂。\nno-newline床头屋漏无干处，\n雨脚如麻未断绝。\nno-newline自经丧乱少睡眠，
-\n长夜沾湿何由彻！
+俄顷风定云墨色，\n秋天漠漠向昏黑。\nno-newline布衾多年冷似铁，\n娇儿恶卧踏里裂。\nno-newline床头屋漏无干处，\n雨脚如麻未断绝。\nno-newline自经丧乱少睡眠，\n长夜沾湿何由彻！
 安得广厦千万间，\n大庇天下寒士俱欢颜！\nno-newline风雨不动安如山。\nno-newline呜呼！\nno-newline何时眼前突兀见此屋，\n吾庐独破受冻死亦足！`,
 
 `卖炭翁
@@ -304,8 +303,8 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 
 `子衿
 【先秦】\n侠名
-青青子衿，\n悠悠我心。\nno-newline纵我不往，\n子宁不嗣音？
-青青子佩，\n悠悠我思。\nno-newline纵我不往，\n子宁不来？
+青青子衿，\n悠悠我心。\nno-newline纵我不往，no-question\n子宁不嗣音？
+青青子佩，\n悠悠我思。\nno-newline纵我不往，no-question\n子宁不来？
 挑兮达兮，\n在城阙兮。\nno-newline一日不见，\n如三月兮！`,
 
 `送杜少府之任蜀州
@@ -365,10 +364,8 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 `水调歌头·明月几时有
 【宋】\n苏轼
 丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。no-question
-明月几时有？\nno-newline把酒问青天。\nno-newline不知天上宫阙，\n今夕是何年。\nno-newline我欲乘风归去，\n又恐琼楼玉 
-宇，\n高处不胜寒。\nno-newline起舞弄清影，\n何似在人间。
-转朱阁，\n低绮户，\n照无眠。\nno-newline不应有恨，\n何事长向别时圆？\nno-newline人有悲欢离合，\n月有阴晴 
-圆缺，\n此事古难全。\nno-newline但愿人长久，\n千里共婵娟。`,
+明月几时有？\nno-newline把酒问青天。\nno-newline不知天上宫阙，\n今夕是何年。\nno-newline我欲乘风归去，\n又恐琼楼玉宇，\n高处不胜寒。\nno-newline起舞弄清影，\n何似在人间。
+转朱阁，\n低绮户，\n照无眠。\nno-newline不应有恨，\n何事长向别时圆？\nno-newline人有悲欢离合，\n月有阴晴圆缺，\n此事古难全。\nno-newline但愿人长久，\n千里共婵娟。`,
 
 `月夜忆舍弟
 【唐】\n杜甫
@@ -392,8 +389,7 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 知汝远来应有意，\n好收吾骨瘴江边。`,
 
 `商山早行
-【唐代】\n温庭筠
-
+【唐】\n温庭筠
 晨起动征铎，\n客行悲故乡。
 鸡声茅店月，\n人迹板桥霜。
 槲叶落山路，\n枳花明驿墙。
@@ -415,10 +411,8 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 
 `行香子·树绕村庄
 【宋】\n秦观
-树绕村庄，\n水满陂塘。\nno-newline倚东风，\n豪兴徜徉。\nno-newline小园几许，\n收尽春光。\nno-newline有桃花红，\n李 
-花白，\n菜花黄。
-远远围墙，\n隐隐茅堂。\nno-newline飏青旗，\n流水桥旁。\nno-newline偶然乘兴，\n步过东冈。\nno-newline正莺儿啼，\n燕 
-儿舞，\n蝶儿忙。`,
+树绕村庄，\n水满陂塘。\nno-newline倚东风，\n豪兴徜徉。\nno-newline小园几许，\n收尽春光。\nno-newline有桃花红，\n李花白，\n菜花黄。
+远远围墙，\n隐隐茅堂。\nno-newline飏青旗，\n流水桥旁。\nno-newline偶然乘兴，\n步过东冈。\nno-newline正莺儿啼，\n燕儿舞，\n蝶儿忙。`,
 
 `丑奴儿·书博山道中壁
 【宋】\n辛弃疾
@@ -432,10 +426,8 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 
 `江城子·密州出猎
 【宋】\n苏轼
-老夫聊发少年狂，\n左牵黄，\n右擎苍，\n锦帽貂裘，\n千骑卷平冈。\nno-newline为报倾城随太守，\n亲 
-射虎，\n看孙郎。
-酒酣胸胆尚开张。\nno-newline鬓微霜，\n又何妨！\nno-newline持节云中，\n何日遣冯唐？\nno-newline会挽雕弓如满月，\n西 
-北望，\n射天狼。`,
+老夫聊发少年狂，\n左牵黄，\n右擎苍，\n锦帽貂裘，\n千骑卷平冈。\nno-newline为报倾城随太守，\n亲射虎，\n看孙郎。
+酒酣胸胆尚开张。\nno-newline鬓微霜，\n又何妨！\nno-newline持节云中，\n何日遣冯唐？\nno-newline会挽雕弓如满月，\n西北望，\n射天狼。`,
 
 `破阵子·为陈同甫赋壮词以寄之
 【宋】\n辛弃疾
@@ -444,10 +436,8 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 
 `满江红·小住京华
 【近现代】\n秋瑾
-小住京华，\n早又是中秋佳节。\nno-newline为篱下黄花开遍，\n秋容如拭。\nno-newline四面歌残终破楚，\n八年风 
-味徒思浙。\nno-newline苦将侬强派作蛾眉，\n殊未屑！
-身不得，\n男儿列，\n心却比，\n男儿烈。\nno-newline算平生肝胆，\n因人常热。\nno-newline俗子胸襟谁识我？
-英雄末路当磨折。\nno-newline莽红尘何处觅知音？\n青衫湿！`,
+小住京华，\n早又是中秋佳节。\nno-newline为篱下黄花开遍，\n秋容如拭。\nno-newline四面歌残终破楚，\n八年风味徒思浙。\nno-newline苦将侬强派作蛾眉，\n殊未屑！
+身不得，\n男儿列，\n心却比，\n男儿烈。\nno-newline算平生肝胆，\n因人常热。\nno-newline俗子胸襟谁识我？\nno-newline英雄末路当磨折。\nno-newline莽红尘何处觅知音？\n\nno-newline青衫湿！`,
 
 `十五从军征
 【汉】\n佚名
@@ -526,14 +516,11 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 
 `山坡羊·骊山怀古
 【元】\n张养浩
-骊山四顾，\n阿房一炬，\n当时奢侈今何处？\nno-newline只见草萧疏，\n水萦纡。\nno-newline至今遗恨迷烟树。\nno-newline列国周齐秦汉楚。\nno-newline 
-赢，\n都变做了土；\nno-newline输，\n都变做了土。
-朝天子·咏喇叭`,
+骊山四顾，\n阿房一炬，\n当时奢侈今何处？\nno-newline只见草萧疏，\n水萦纡。\nno-newline至今遗恨迷烟树。\nno-newline列国周齐秦汉楚。\nno-newline赢，\n都变做了土；\nno-newline输，\n都变做了土。`,
 
 `朝天子·咏喇叭
 【明】\n王磐咏
-喇叭，\n唢呐，\n曲儿小腔儿大。\nno-newline官船来往乱如麻，\n全仗你抬声价。\nno-newline军听了军愁，\n民听了民怕。\nno-newline哪里去辨 
-甚么真共假？\nno-newline眼见的吹翻了这家，\n吹伤了那家，\n只吹的水尽鹅飞罢！`,
+喇叭，\n唢呐，\n曲儿小腔儿大。\nno-newline官船来往乱如麻，\n全仗你抬声价。\nno-newline军听了军愁，\n民听了民怕。\nno-newline哪里去辨甚么真共假？\nno-newline眼见的吹翻了这家，\n吹伤了那家，\n只吹的水尽鹅飞罢！`,
 ];
 
 export default data;
