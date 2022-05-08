@@ -30,7 +30,7 @@ function newQuestion() {
       answer += `<br/>${elems[i]}`;
   }
   showAnswer.value = false;
-  question.value = { question: q.replace('no-newline', ''), answer: answer };
+  question.value = { question: q.replace('no-newline', ''), answer: answer.substring(5) };
 }
 
 function calculateQuestions() {
@@ -61,17 +61,23 @@ function calculateQuestions() {
 </template>
 
 <style>
-main, footer {
+main {
+  padding-top: 35px;
   text-align: center;
 }
 
 footer {
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 20px;
 }
 
 p, button {
   font-size: 2rem;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 </style>
