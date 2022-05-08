@@ -437,7 +437,7 @@ no-newline夕阳西下，\n断肠人在天涯。`,
 `满江红·小住京华
 【近现代】\n秋瑾
 小住京华，\n早又是中秋佳节。\nno-newline为篱下黄花开遍，\n秋容如拭。\nno-newline四面歌残终破楚，\n八年风味徒思浙。\nno-newline苦将侬强派作蛾眉，\n殊未屑！
-身不得，\n男儿列，\n心却比，\n男儿烈。\nno-newline算平生肝胆，\n因人常热。\nno-newline俗子胸襟谁识我？\nno-newline英雄末路当磨折。\nno-newline莽红尘何处觅知音？\n\nno-newline青衫湿！`,
+身不得，\n男儿列，\n心却比，\n男儿烈。\nno-newline算平生肝胆，\n因人常热。\nno-newline俗子胸襟谁识我？\nno-newline英雄末路当磨折。\nno-newline莽红尘何处觅知音？\nno-newline青衫湿！`,
 
 `十五从军征
 【汉】\n佚名
