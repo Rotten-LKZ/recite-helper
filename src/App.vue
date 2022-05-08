@@ -36,7 +36,7 @@ function newQuestion() {
 <template>
   <main>
     <p>{{ question.question }}</p>
-    <button @click="showAnswer = !showAnswer">揭晓答案</button>
+    <button @click="showAnswer = !showAnswer" v-text="showAnswer ? '隐藏答案' : '揭晓答案'"></button>
     <button @click="newQuestion">换一道题</button>
     <p v-if="showAnswer" v-html="question.answer"></p>
   </main>
@@ -45,5 +45,9 @@ function newQuestion() {
 <style>
 main {
   text-align: center;
+}
+
+p, button {
+  font-size: 2rem;
 }
 </style>
