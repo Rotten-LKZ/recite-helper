@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import data from './assets/data';
+import Highlight from './components/Highlight.vue';
 
 interface Question {
   question: string;
@@ -52,7 +53,8 @@ function calculateQuestions() {
     <p>{{ question.question }}</p>
     <button @click="showAnswer = !showAnswer" v-text="showAnswer ? '隐藏答案' : '揭晓答案'"></button>
     <button @click="newQuestion">换一道题</button>
-    <p v-if="showAnswer" v-html="question.answer"></p>
+    <!-- <p v-if="showAnswer" v-html="question.answer"></p> -->
+    <Highlight :html="question.answer" :high-text="question.question" v-if="showAnswer" />
   </main>
 
   <footer>
