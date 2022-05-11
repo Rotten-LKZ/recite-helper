@@ -11,10 +11,7 @@
   }>()
 
   const html = computed(() => {
-    if (eval)
-      return props.html.replace(eval(`/${props.highText}/g`), `<span class="highlight">${props.highText}</span>`);
-    else
-      return props.html;
+    return props.html.replace(RegExp(props.highText, 'g'), `<span class="highlight">${props.highText}</span>`);
   })
 </script>
 
