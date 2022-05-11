@@ -1,0 +1,26 @@
+name: Sync to Gitee
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: 🍳 Sync to Gitee on and ${{ matrix.os }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - name: Mirror this repo to Gitee
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/Rotten-LKZ
+          dst: gitee/rotten_lkz
+          dst_key: ${{ secrets.ID_RSA }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          force_update: true
+          clone_style: "ssh"
+          white_list: "recite-helper"
